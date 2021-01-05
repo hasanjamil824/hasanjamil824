@@ -1,3 +1,148 @@
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
+/* Nave Bar Secton */
+.navbar{
+    font-size: 2vw;
+}
+
+.nav-item a{
+    float: right;
+    color: #474747;
+}
+
+.navbar-brand{
+    color: #474747!important;
+    font-size: 2vw;
+}
+
+
+/* Home Page Section */
+
+#Home{
+    padding-top: 60px;
+}
+
+.home_img{
+    margin: auto;
+    background-color: #EFEFEF;
+    height: 430px;
+    width: 430px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home_img .img img{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    border: 15px solid #d8d8d8;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+   
+}
+
+.details{
+    /* text-align: center; */
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 0px;
+    }
+
+
+.Hello_Im h3{	
+    border: 2px solid #4FDCC5;
+    border-radius: 10%;
+    background-color: #4FDCC5;	
+    display: inline-block;
+    color: white;
+    font-size: 2vw;
+    padding-top: 3px;
+}
+
+.Home_heading h1{
+    color:#474747;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size:6vw;
+} 
+
+#Home .tagline h3{
+    color:#474747;
+    font-size:4vw;
+} 
+
+.home_address{
+    color:#474747;
+    font-size:2vw;
+}
+
+.home_address i:hover{
+    color:#23D3B7;
+}
+
+.home_address i p{
+    margin-left: 15px;
+    display: inline-block;
+    color: #474747;
+}
+
+.home_social i{
+    color: #474747;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.home_social i:hover{
+    color:#23D3B7;
+    background-color: #474747;
+    
+}
+
+
+@media only screen and (min-width: 961px) {
+
+    .home_img{
+        float: left;
+    }
+    .details{
+        float: right;
+    }
+
+}
+
+@media only screen and (max-width: 960px) {
+    
+    .details{
+    text-align: center;
+    margin: 0 auto;
+    }
+
+    .home_img{
+        float: left;
+    }
+    .details{
+        float: right;
+        padding-left: 0px;
+    }
+
+}
+
+
+
+#About .img-fluid{
+    margin-top: 30px;
+    
+}
+
+
+
+
+

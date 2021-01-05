@@ -4,17 +4,17 @@ body{
 
 /* Nave Bar Secton */
 .navbar{
-    font-size: 2vw;
+    font-size: 25px;
 }
 
 .nav-item a{
     float: right;
-    color: #474747;
+    color: #474747!important;
 }
 
 .navbar-brand{
     color: #474747!important;
-    font-size: 2vw;
+    font-size: 25px;
 }
 
 
@@ -61,7 +61,7 @@ body{
     background-color: #4FDCC5;	
     display: inline-block;
     color: white;
-    font-size: 2vw;
+    font-size: 40px;
     padding-top: 3px;
 }
 
@@ -69,17 +69,17 @@ body{
     color:#474747;
     padding-top: 20px;
     font-weight: bolder;
-    font-size:6vw;
+    font-size:68px;
 } 
 
 #Home .tagline h3{
     color:#474747;
-    font-size:4vw;
+    font-size:40px;
 } 
 
 .home_address{
     color:#474747;
-    font-size:2vw;
+    font-size:20px;
 }
 
 .home_address i:hover{
